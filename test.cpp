@@ -1,18 +1,11 @@
 #include<iostream>
-using namespace std;
+#include<cmath>
+#include<iomanip>
 int main()
 {
-
-int a = 10;
-
-// 输出：10
-cout << a << endl;
-
-// 可以串联输出
-// 输出：Hello, World!
-cout << "Hello" << ", " << "World!" << endl;
-
-string s = "abc";
-// 输出：abc 10
-cout << s << " " << a << endl;
+    double a,b,c;
+    std::cin>>a>>b;
+    c=sqrt(a*a+b*b);
+    std::cout<<std::fixed<<std::setprecision(2)<<c;
+    return 0;
 }
