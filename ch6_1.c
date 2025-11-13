@@ -13,7 +13,7 @@ void Sort(int arr[], int n);
 void Sequent(int arr[], int n, int target);
 void Binary(int arr[], int n, int target);
 
-int main()
+int main()//数组元素处理
 {
     int n;
     int target;

@@ -10,7 +10,7 @@ int Sum_diagonal(int matrix[SIZE][SIZE]);
 int Product_even_index(int matrix[SIZE][SIZE]);
 void Find_max_diagonal(int matrix[SIZE][SIZE]);
 
-int main()
+int main()//¾ØÕóÔªËØ´¦Àí
 {
     int matrix[SIZE][SIZE];
     

@@ -13,7 +13,7 @@ int main()
 
 void dfs(int start,int depth)
 {
-    if (depth==m)
+    if (depth==n)
     {
         for (int i = 0; i < n; i++)
         {
@@ -23,9 +23,9 @@ void dfs(int start,int depth)
         return;
     }
     
-    for (int i = start; i < m; i++)
+    for (int i = start; i <= m; i++)
     {
-        printf("%d\n",data[i]);
+        data[depth] = i; 
         dfs(i+1,depth+1);
     }
 }
