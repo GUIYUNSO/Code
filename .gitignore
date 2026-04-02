@@ -1,0 +1,10 @@
+# 编译产物
+*.exe
+*.o
+
+# 输出目录
+output/
+build/
+
+# VS Code
+.vscode/
