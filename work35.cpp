@@ -21,7 +21,7 @@ private:
     int *curr; // current position within the array
 };
 
-// 前缀自增：先移动指针，再返回引用
+// 鍓嶇紑鑷锛氬厛绉诲姩鎸囬拡锛屽啀杩斿洖寮曠敤
 CheckedPtr &CheckedPtr::operator++()
 {
     if (curr < end)
@@ -29,7 +29,7 @@ CheckedPtr &CheckedPtr::operator++()
     return *this;
 }
 
-// 前缀自减：先移动指针，再返回引用
+// 鍓嶇紑鑷噺锛氬厛绉诲姩鎸囬拡锛屽啀杩斿洖寮曠敤
 CheckedPtr &CheckedPtr::operator--()
 {
     if (curr > beg)
@@ -37,7 +37,7 @@ CheckedPtr &CheckedPtr::operator--()
     return *this;
 }
 
-// 后缀自增：保存当前位置，移动指针，返回保存的副本
+// 鍚庣紑鑷锛氫繚瀛樺綋鍓嶄綅缃紝绉诲姩鎸囬拡锛岃繑鍥炰繚瀛樼殑鍓湰
 CheckedPtr CheckedPtr::operator++(int)
 {
     CheckedPtr temp = *this;
@@ -46,7 +46,7 @@ CheckedPtr CheckedPtr::operator++(int)
     return temp;
 }
 
-// 后缀自减：保存当前位置，移动指针，返回保存的副本
+// 鍚庣紑鑷噺锛氫繚瀛樺綋鍓嶄綅缃紝绉诲姩鎸囬拡锛岃繑鍥炰繚瀛樼殑鍓湰
 CheckedPtr CheckedPtr::operator--(int)
 {
     CheckedPtr temp = *this;

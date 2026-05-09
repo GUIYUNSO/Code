@@ -21,15 +21,15 @@ int main()
         {
             ll ndp1 = -1e18, ndp2 = -1e18;
             // x_i = 1
-            // from p=1: same sign ¡ú red
+            // from p=1: same sign â†’ red
             ndp1 = max(ndp1, dp1 + (-a[i]));
-            // from p=-1: opposite ¡ú blue
+            // from p=-1: opposite â†’ blue
             ndp1 = max(ndp1, dp2 + b[i]);
             
             // x_i = -1
-            // from p=1: opposite ¡ú blue
+            // from p=1: opposite â†’ blue
             ndp2 = max(ndp2, dp1 + (-b[i])); // x_i*b_i = -1*b_i = -b_i
-            // from p=-1: same ¡ú red
+            // from p=-1: same â†’ red
             ndp2 = max(ndp2, dp2 + a[i]); // x_i*(-a_i) = (-1)*(-a_i) = a_i
             
             dp1 = ndp1;

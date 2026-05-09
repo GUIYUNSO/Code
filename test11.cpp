@@ -33,7 +33,7 @@ private:
     Point2 p2;
 
 public:
-    // 删除 const
+    // 鍒犻櫎 const
     Line2(Point2 &n, Point2 &m) : p1(n), p2(m) {}
 
     double Length()
@@ -54,7 +54,7 @@ int main()
     double x1, y1, x2, y2;
     cin >> x1 >> y1 >> x2 >> y2;
 
-    // 改成正常变量，不使用临时对象
+    // 鏀规垚姝ｅ父鍙橀噺锛屼笉浣跨敤涓存椂瀵硅薄
     Point2 p3(x1, y1);
     Point2 p4(x2, y2);
     Line2 nLine(p3, p4);

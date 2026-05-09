@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) //¶ÁÈ¡ÃüÁîĞĞ²ÎÊı
+int main(int argc, char *argv[]) //è¯»å–å‘½ä»¤è¡Œå‚æ•°
 {
     printf("Number of arguments: %d\n", argc);
     for (int i = 0; i < argc; i++)

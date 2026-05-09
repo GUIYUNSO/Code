@@ -35,8 +35,8 @@ int main()
 {
     std::list<Student> li;
 
-    Input(li); //ÊäÈë
-    Show(li); //Êä³ö
+    Input(li); //è¾“å…¥
+    Show(li); //è¾“å‡º
 
     return 0;
 }

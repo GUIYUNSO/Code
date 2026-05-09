@@ -33,7 +33,7 @@ int main()
     
     printf("s1   = %s\n", str1);
     printf("s2   = %s\n", str2);
-    printf("½á¹û = %s\n", result);
+    printf("ç»“æžœ = %s\n", result);
     
     return 0;
 }

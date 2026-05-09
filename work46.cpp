@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-template <typename T> class MyQueue; // 前置声明
+template <typename T> class MyQueue; // 鍓嶇疆澹版槑
 template <typename T> ostream &operator<<(ostream &, const MyQueue<T> &);
 
 template <typename T>
@@ -40,7 +40,7 @@ private:
     friend ostream &operator<<<T>(ostream &os, const MyQueue<T> &q);
 };
 
-// 成员函数实现
+// 鎴愬憳鍑芥暟瀹炵幇
 
 template <typename T>
 void MyQueue<T>::Push(const T &val)

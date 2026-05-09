@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int gcd (int a,int b)//Õ·×ªÏà³ý·¨
+int gcd (int a,int b)//è¾—è½¬ç›¸é™¤æ³•
 {
 	return b?gcd(b,a%b):a;
 }

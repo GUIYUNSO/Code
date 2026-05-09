@@ -8,14 +8,14 @@ int main()
 	int n;
 	scanf("%d", &n);
 	
-	for(int i=0;i<n;i++) q.push(i+1); //初始化队列
+	for(int i=0;i<n;i++) q.push(i+1); //鍒濆鍖栭槦鍒?
 
-	while(!q.empty())                 //当队列非空时
+	while(!q.empty())                 //褰撻槦鍒楅潪绌烘椂
 	{
-		printf("%d ", q.front());     //输出队首元素
-		q.pop();                      //移除这一元素
-		q.push(q.front());            //把队首元素移到队尾
-		q.pop();                      //移除这一元素
+		printf("%d ", q.front());     //杈撳嚭闃熼鍏冪礌
+		q.pop();                      //绉婚櫎杩欎竴鍏冪礌
+		q.push(q.front());            //鎶婇槦棣栧厓绱犵Щ鍒伴槦灏?
+		q.pop();                      //绉婚櫎杩欎竴鍏冪礌
 	}
 	printf("\n");
 	return 0;

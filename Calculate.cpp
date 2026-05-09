@@ -27,7 +27,7 @@ void precompute()
         inv[i] = fastPow(i, mod-2, mod);
     }
     
-    // ±ß½çÌõ¼ş
+    // è¾¹ç•Œæ¡ä»¶
     for (int a = 0; a <= 5000; a++) E[a][0] = a;
     for (int b = 0; b <= 5000; b++) E[0][b] = b;
     

@@ -6,17 +6,17 @@ int main() {
     
     fp = fopen("output.txt", "w");
     if (fp == NULL) {
-        printf("ÎŞ·¨´´½¨ÎÄ¼ş!\n");
+        printf("æ— æ³•åˆ›å»ºæ–‡ä»¶!\n");
         return 1;
     }
     
-    printf("ÇëÊäÈë×Ö·û£¬ÒÔ#½áÊø:\n");
+    printf("è¯·è¾“å…¥å­—ç¬¦ï¼Œä»¥#ç»“æŸ:\n");
     while ((ch = getchar()) != '#') {
         fputc(ch, fp);
     }
     
     fclose(fp);
-    printf("×Ö·ûÒÑ±£´æµ½ÎÄ¼ş!\n");
+    printf("å­—ç¬¦å·²ä¿å­˜åˆ°æ–‡ä»¶!\n");
     
     return 0;
 }
