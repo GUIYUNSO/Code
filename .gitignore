@@ -8,3 +8,10 @@ build/
 
 # VS Code
 .vscode/
+node_modules
+
+# Trae agent files
+.trae/
+
+# Skills folder
+skills/
