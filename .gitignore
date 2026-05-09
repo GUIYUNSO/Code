@@ -1,17 +1,31 @@
-# 编译产物
+# Compiled outputs
 *.exe
 *.o
+*.d
+*.a
+*.so
 
-# 输出目录
+# Build directories
 output/
 build/
 
-# VS Code
+# Python files
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+
+# IDE and Editor
 .vscode/
-node_modules
+.code-workspace
+*.code-workspace
+node_modules/
 
-# Trae agent files
+# System files
+.DS_Store
+Thumbs.db
+.git/metadata
+
+# Trae and Skills
 .trae/
-
-# Skills folder
 skills/
